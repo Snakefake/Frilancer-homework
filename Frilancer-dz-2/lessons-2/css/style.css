@@ -1,3 +1,7 @@
-div{
-	color: blue;
+.main{
+	display: flex;
+	align-items: center;	
+}
+h3{
+	margin-right: 5px;
 }
