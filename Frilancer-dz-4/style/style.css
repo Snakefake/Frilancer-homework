@@ -1,0 +1,57 @@
+@font-face {
+	font-family: 'Kanit';
+	src: url('../fonts/kanit-converted/Kanit-ExtraBoldItalic.woff2') format('woff2'),
+		 url('../fonts/kanit-converted/Kanit-ExtraLightItalic.woff') format('woff');
+	font-weight: 200;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Kanit';
+	src: url('../fonts/kanit-converted/Kanit-SemiBold.woff2') format('woff2'),
+		 url('../fonts/kanit-converted/Kanit-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+.title{
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.bismarck{
+	font-weight: 600;
+	font-style: italic;
+	font-size: 25px;
+	color: rgb(234, 25, 25);
+	text-shadow: 2px 5px 10px rgb(234, 20, 20);
+	text-decoration: underline;
+}
+.main-img{
+	display: flex;
+	justify-content: center;
+}
+.bismarck-description{
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	width: 1200px;
+	font-weight: 400;
+}
+.main-word{
+	font-size: 25px;
+	font-style: italic;
+	color: rgb(180, 39, 39);
+	text-decoration: line-through;
+}
+.characteristics{
+	margin-top: 20px;
+	font-family: 'Kanit';
+	font-style: italic;
+	text-align: center;
+	font-size: 17px;
+	text-transform: lowercase;
+}
