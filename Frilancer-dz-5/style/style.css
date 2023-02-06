@@ -1,12 +1,15 @@
+body{
+	background-color: #E5E5E5;
+}
 .title-wrapper{
 	font-family: 'Poppins', sans-serif;
-	width: 816px;
+	max-width: 816px;
 	margin: 0 auto;
 }
 .title{
 	font-weight: 700;
 	font-size: 25px;
-	width: 400px;
+	max-width: 400px;
 	color: #212529;
 	line-height: 40px;
 }
@@ -25,14 +28,17 @@
 	margin-top: 25px;
 }
 .desert{
-	width: 1240px;
+	max-width: 1240px;
 	height: 400px;
 	margin: 0 auto;
 	margin-top: 80px;
 }
+.desert img{
+	max-width: 100%;
+}
 .content-wrapper{
 	font-family: 'Poppins', sans-serif;
-	width: 816px;
+	max-width: 816px;
 	margin: 0 auto;
 	margin-top: 80px;
 }
@@ -54,22 +60,25 @@
 	margin-top: 25px;
 }
 .more-img{
-	width: 1240px;
+	max-width: 1240px;
 	margin: 0 auto;
 	margin-top: 80px;
 	font-size: 0;
 }
+.more-img img{
+	max-width: 100%;
+}
 .traveler{
-	width: 605px;
+	max-width: 605px;
 	height: 400px;
 	margin-right: 30px;
 }
 .nature{
-	width: 605px;
+	max-width: 605px;
 	height: 400px;
 }
 .last-description{
-	width: 816px;
+	max-width: 816px;
 	font-family: 'Poppins', sans-serif;
 	margin: 0 auto;
 	margin-top: 80px;
