@@ -87,3 +87,71 @@ body{
 	line-height: 25px;
 	font-weight: 300;
 }
+.link-to-second-page{
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.link-to-second-page a{
+	padding: 50px;
+	background-color: green;
+	font-size: 20px;
+}
+
+/* СТИЛИ ДЛЯ ВТОРОЙ СТРАНИЦЫ */
+
+.main-text{
+	max-width: 816px;
+	margin: 0 auto;
+	color: #6C757D;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+}
+.main-text-second{
+	margin-top: 25px;
+}
+.tagline-container{
+	max-width: 816px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.tagline{
+	max-width: 605px;	
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 40px;
+	color: #212529;
+}
+.second-page-images {
+	max-width: 1240px;
+	margin: 0 auto;
+	margin-top: 100px;
+	font-size: 0;
+}
+.second-page-images img{
+	max-width: 100%;
+}
+.wardrobe {
+	max-width: 605px;
+	height: 400px;
+	margin-right: 30px;
+}
+.tomato-clothes {
+	max-width: 605px;
+	height: 400px;
+}
+.second-page-last-description {
+	max-width: 816px;
+	margin: 0 auto;
+	margin-top: 100px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 25px;
+	color: #6C757D;
+}
+
+
