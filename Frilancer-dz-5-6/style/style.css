@@ -29,7 +29,6 @@ body{
 }
 .desert{
 	max-width: 1240px;
-	height: 400px;
 	margin: 0 auto;
 	margin-top: 80px;
 }
@@ -43,7 +42,7 @@ body{
 	margin-top: 80px;
 }
 .content-title{
-	width: 605px;
+	max-width: 605px;
 	color: #212529;
 	font-weight: 700;
 	font-size: 25px;
@@ -101,12 +100,7 @@ body{
 
 /* СТИЛИ ДЛЯ ВТОРОЙ СТРАНИЦЫ */
 
-.main-img-container{
-	max-width: 1440px;
-	height: 500px;
-	margin: 0 auto;
-}
-.main-img-container img{
+.large-img{
 	width: 100%;
 }
 
